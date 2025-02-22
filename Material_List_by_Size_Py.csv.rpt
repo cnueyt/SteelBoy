@@ -1,0 +1,633 @@
+template 
+{
+    name = "template_2";
+    type = TEXTUAL;
+    width = 120;
+    maxheight = 5;
+    columns = (1, 1);
+    gap = 1;
+    fillpolicy = EVEN;
+    filldirection = HORIZONTAL;
+    fillstartfrom = TOPLEFT;
+    margins = (4, 0, 0, 0);
+    gridxspacing = 1;
+    gridyspacing = 1;
+    version = 4.2;
+    created = "29.10.2004 12:12";
+    modified = "21.02.2025 17:03";
+    notes = "Converted template";
+    usepagebreaks = FALSE;
+
+    pageheader 
+    {
+        name = "PAGEHEADER";
+        height = 1;
+        outputpolicy = NONE;
+
+        text 
+        {
+            name = "text_15";
+            x1 = 0;
+            y1 = 0;
+            x2 = 0;
+            y2 = 0;
+            string = "Size";
+            fontname = "Courier New";
+            fontcolor = 153;
+            fonttype = 2;
+            fontsize = 0.8;
+            fontratio = 0.75;
+            fontslant = 0;
+            fontstyle = 0;
+            angle = 0;
+            justify = LEFT;
+            pen = 0;
+        };
+
+        text 
+        {
+            name = "text_16";
+            x1 = 11;
+            y1 = 0;
+            x2 = 11;
+            y2 = 0;
+            string = "Grade";
+            fontname = "Courier New";
+            fontcolor = 153;
+            fonttype = 2;
+            fontsize = 0.8;
+            fontratio = 0.75;
+            fontslant = 0;
+            fontstyle = 0;
+            angle = 0;
+            justify = LEFT;
+            pen = 0;
+        };
+
+        text 
+        {
+            name = "text_17";
+            x1 = 22;
+            y1 = 0;
+            x2 = 22;
+            y2 = 0;
+            string = "Quantity";
+            fontname = "Courier New";
+            fontcolor = 153;
+            fonttype = 2;
+            fontsize = 0.8;
+            fontratio = 0.75;
+            fontslant = 0;
+            fontstyle = 0;
+            angle = 0;
+            justify = LEFT;
+            pen = 0;
+            isalwaysvisible = TRUE;
+            visibilityrule = "";
+        };
+
+        text 
+        {
+            name = "text_18";
+            x1 = 38;
+            y1 = 0;
+            x2 = 38;
+            y2 = 0;
+            string = "Length(mm)";
+            fontname = "Courier New";
+            fontcolor = 153;
+            fonttype = 2;
+            fontsize = 0.8;
+            fontratio = 0.75;
+            fontslant = 0;
+            fontstyle = 0;
+            angle = 0;
+            justify = LEFT;
+            pen = 0;
+        };
+
+        text 
+        {
+            name = "text_19";
+            x1 = 50;
+            y1 = 0;
+            x2 = 50;
+            y2 = 0;
+            string = "Area(m²)";
+            fontname = "Courier New";
+            fontcolor = 153;
+            fonttype = 2;
+            fontsize = 0.8;
+            fontratio = 0.75;
+            fontslant = 0;
+            fontstyle = 0;
+            angle = 0;
+            justify = LEFT;
+            pen = 0;
+        };
+
+        text 
+        {
+            name = "text_20";
+            x1 = 60;
+            y1 = 0;
+            x2 = 60;
+            y2 = 0;
+            string = "Weight(kg)";
+            fontname = "Courier New";
+            fontcolor = 153;
+            fonttype = 2;
+            fontsize = 0.8;
+            fontratio = 0.75;
+            fontslant = 0;
+            fontstyle = 0;
+            angle = 0;
+            justify = LEFT;
+            pen = 0;
+        };
+
+        text _tmp_6
+        {
+            name = ";_5";
+            x1 = 4;
+            y1 = 0;
+            x2 = 4;
+            y2 = 0;
+            string = ";";
+            fontname = "Arial Narrow";
+            fontcolor = 153;
+            fonttype = 2;
+            fontsize = 2.5;
+            fontratio = 1;
+            fontslant = 0;
+            fontstyle = 0;
+            angle = 0;
+            justify = LEFT;
+            pen = -1;
+            isalwaysvisible = TRUE;
+            visibilityrule = "";
+        };
+
+        text _tmp_7
+        {
+            name = ";_6";
+            x1 = 16;
+            y1 = 0;
+            x2 = 16;
+            y2 = 0;
+            string = ";";
+            fontname = "Arial Narrow";
+            fontcolor = 153;
+            fonttype = 2;
+            fontsize = 2.5;
+            fontratio = 1;
+            fontslant = 0;
+            fontstyle = 0;
+            angle = 0;
+            justify = LEFT;
+            pen = -1;
+            isalwaysvisible = TRUE;
+            visibilityrule = "";
+        };
+
+        text _tmp_8
+        {
+            name = ";_7";
+            x1 = 30;
+            y1 = 0;
+            x2 = 30;
+            y2 = 0;
+            string = ";";
+            fontname = "Arial Narrow";
+            fontcolor = 153;
+            fonttype = 2;
+            fontsize = 2.5;
+            fontratio = 1;
+            fontslant = 0;
+            fontstyle = 0;
+            angle = 0;
+            justify = LEFT;
+            pen = -1;
+            isalwaysvisible = TRUE;
+            visibilityrule = "";
+        };
+
+        text _tmp_9
+        {
+            name = ";_8";
+            x1 = 48;
+            y1 = 0;
+            x2 = 48;
+            y2 = 0;
+            string = ";";
+            fontname = "Arial Narrow";
+            fontcolor = 153;
+            fonttype = 2;
+            fontsize = 2.5;
+            fontratio = 1;
+            fontslant = 0;
+            fontstyle = 0;
+            angle = 0;
+            justify = LEFT;
+            pen = -1;
+            isalwaysvisible = TRUE;
+            visibilityrule = "";
+        };
+
+        text _tmp_10
+        {
+            name = ";_9";
+            x1 = 58;
+            y1 = 0;
+            x2 = 58;
+            y2 = 0;
+            string = ";";
+            fontname = "Arial Narrow";
+            fontcolor = 153;
+            fonttype = 2;
+            fontsize = 2.5;
+            fontratio = 1;
+            fontslant = 0;
+            fontstyle = 0;
+            angle = 0;
+            justify = LEFT;
+            pen = -1;
+            isalwaysvisible = TRUE;
+            visibilityrule = "";
+        };
+
+        text _tmp_1
+        {
+            name = "text";
+            x1 = 73;
+            y1 = 0;
+            x2 = 73;
+            y2 = 0;
+            string = "Weight(kg/m)";
+            fontname = "Courier New";
+            fontcolor = 153;
+            fonttype = 2;
+            fontsize = 0.8;
+            fontratio = 0.75;
+            fontslant = 0;
+            fontstyle = 0;
+            angle = 0;
+            justify = LEFT;
+            pen = 0;
+            isalwaysvisible = TRUE;
+            visibilityrule = "";
+        };
+
+        text _tmp_2
+        {
+            name = ";_10";
+            x1 = 70;
+            y1 = 0;
+            x2 = 70;
+            y2 = 0;
+            string = ";";
+            fontname = "Arial Narrow";
+            fontcolor = 153;
+            fonttype = 2;
+            fontsize = 2.5;
+            fontratio = 1;
+            fontslant = 0;
+            fontstyle = 0;
+            angle = 0;
+            justify = LEFT;
+            pen = -1;
+            isalwaysvisible = TRUE;
+            visibilityrule = "";
+        };
+    };
+
+    row 
+    {
+        name = "PART";
+        height = 1;
+        visibility = TRUE;
+        usecolumns = FALSE;
+        rule = "";
+        contenttype = "PART";
+        sorttype = COMBINE;
+
+        valuefield 
+        {
+            name = "PROFILE";
+            location = (0, 0);
+            formula = "GetValue(\"PROFILE\")";
+            maxnumoflines = 1;
+            datatype = STRING;
+            class = "";
+            cacheable = TRUE;
+            formatzeroasempty = FALSE;
+            justify = LEFT;
+            visibility = TRUE;
+            angle = 0;
+            length = 14;
+            sortdirection = ASCENDING;
+            fontname = "Courier New";
+            fontcolor = 153;
+            fonttype = 2;
+            fontsize = 0.8;
+            fontratio = 0.75;
+            fontstyle = 0;
+            fontslant = 0;
+            pen = 0;
+            oncombine = NONE;
+        };
+
+        valuefield 
+        {
+            name = "MATERIAL";
+            location = (17, 0);
+            formula = "GetValue(\"MATERIAL\")";
+            datatype = STRING;
+            class = "";
+            cacheable = TRUE;
+            justify = LEFT;
+            visibility = TRUE;
+            angle = 0;
+            length = 7;
+            sortdirection = DESCENDING;
+            fontname = "Courier New";
+            fontcolor = 153;
+            fonttype = 2;
+            fontsize = 0.8;
+            fontratio = 0.75;
+            fontstyle = 0;
+            fontslant = 0;
+            pen = 0;
+            oncombine = NONE;
+        };
+
+        valuefield 
+        {
+            name = "NUMBER";
+            location = (25, 0);
+            formula = "GetValue(\"NUMBER\")";
+            maxnumoflines = 1;
+            datatype = INTEGER;
+            class = "";
+            cacheable = TRUE;
+            formatzeroasempty = FALSE;
+            justify = RIGHT;
+            visibility = TRUE;
+            angle = 0;
+            length = 5;
+            sortdirection = DESCENDING;
+            fontname = "Courier New";
+            fontcolor = 153;
+            fonttype = 2;
+            fontsize = 0.8;
+            fontratio = 0.75;
+            fontstyle = 0;
+            fontslant = 0;
+            pen = 0;
+            oncombine = SUM;
+        };
+
+        valuefield 
+        {
+            name = "LENGTH_field";
+            location = (32, 0);
+            formula = "GetValue(\"LENGTH\")";
+            datatype = DOUBLE;
+            class = "Length";
+            cacheable = TRUE;
+            justify = RIGHT;
+            visibility = TRUE;
+            angle = 0;
+            length = 10;
+            decimals = 0;
+            sortdirection = DESCENDING;
+            fontname = "Courier New";
+            fontcolor = 153;
+            fonttype = 2;
+            fontsize = 0.8;
+            fontratio = 0.75;
+            fontstyle = 0;
+            fontslant = 0;
+            pen = 0;
+            oncombine = NONE;
+            unit = "mm";
+        };
+
+        valuefield 
+        {
+            name = "AREA_field";
+            location = (45, 0);
+            formula = "GetValue(\"AREA\")";
+            maxnumoflines = 1;
+            datatype = DOUBLE;
+            class = "Area";
+            cacheable = TRUE;
+            formatzeroasempty = FALSE;
+            justify = RIGHT;
+            visibility = TRUE;
+            angle = 0;
+            length = 10;
+            decimals = 1;
+            sortdirection = DESCENDING;
+            fontname = "Courier New";
+            fontcolor = 153;
+            fonttype = 2;
+            fontsize = 0.8;
+            fontratio = 0.75;
+            fontstyle = 0;
+            fontslant = 0;
+            pen = 0;
+            oncombine = NONE;
+            unit = "m2";
+        };
+
+        valuefield 
+        {
+            name = "WEIGHT_field";
+            location = (57, 0);
+            formula = "GetValue(\"WEIGHT\")";
+            maxnumoflines = 1;
+            datatype = DOUBLE;
+            class = "Weight";
+            cacheable = TRUE;
+            formatzeroasempty = FALSE;
+            justify = RIGHT;
+            visibility = TRUE;
+            angle = 0;
+            length = 10;
+            decimals = 1;
+            sortdirection = DESCENDING;
+            fontname = "Courier New";
+            fontcolor = 153;
+            fonttype = 2;
+            fontsize = 0.8;
+            fontratio = 0.75;
+            fontstyle = 0;
+            fontslant = 0;
+            pen = 0;
+            oncombine = NONE;
+            unit = "kg";
+        };
+
+        text _tmp_2
+        {
+            name = ";_1";
+            x1 = 24;
+            y1 = 0;
+            x2 = 24;
+            y2 = 0;
+            string = ";";
+            fontname = "Arial Narrow";
+            fontcolor = 153;
+            fonttype = 2;
+            fontsize = 2.5;
+            fontratio = 1;
+            fontslant = 0;
+            fontstyle = 0;
+            angle = 0;
+            justify = LEFT;
+            pen = -1;
+            isalwaysvisible = TRUE;
+            visibilityrule = "";
+        };
+
+        text _tmp_3
+        {
+            name = ";_2";
+            x1 = 31;
+            y1 = 0;
+            x2 = 31;
+            y2 = 0;
+            string = ";";
+            fontname = "Arial Narrow";
+            fontcolor = 153;
+            fonttype = 2;
+            fontsize = 2.5;
+            fontratio = 1;
+            fontslant = 0;
+            fontstyle = 0;
+            angle = 0;
+            justify = LEFT;
+            pen = -1;
+            isalwaysvisible = TRUE;
+            visibilityrule = "";
+        };
+
+        text _tmp_4
+        {
+            name = ";_3";
+            x1 = 43;
+            y1 = 0;
+            x2 = 43;
+            y2 = 0;
+            string = ";";
+            fontname = "Arial Narrow";
+            fontcolor = 153;
+            fonttype = 2;
+            fontsize = 2.5;
+            fontratio = 1;
+            fontslant = 0;
+            fontstyle = 0;
+            angle = 0;
+            justify = LEFT;
+            pen = -1;
+            isalwaysvisible = TRUE;
+            visibilityrule = "";
+        };
+
+        text _tmp_5
+        {
+            name = ";_4";
+            x1 = 56;
+            y1 = 0;
+            x2 = 56;
+            y2 = 0;
+            string = ";";
+            fontname = "Arial Narrow";
+            fontcolor = 153;
+            fonttype = 2;
+            fontsize = 2.5;
+            fontratio = 1;
+            fontslant = 0;
+            fontstyle = 0;
+            angle = 0;
+            justify = LEFT;
+            pen = -1;
+            isalwaysvisible = TRUE;
+            visibilityrule = "";
+        };
+
+        text _tmp_8
+        {
+            name = ";";
+            x1 = 14;
+            y1 = 0;
+            x2 = 14;
+            y2 = 0;
+            string = ";";
+            fontname = "Arial Narrow";
+            fontcolor = 153;
+            fonttype = 2;
+            fontsize = 2.5;
+            fontratio = 1;
+            fontslant = 0;
+            fontstyle = 0;
+            angle = 0;
+            justify = LEFT;
+            pen = -1;
+            isalwaysvisible = TRUE;
+            visibilityrule = "";
+        };
+
+        valuefield _tmp_29
+        {
+            name = "WEIGHT_field_2";
+            location = (76, 0);
+            formula = "GetValue(\"WEIGHT_M\")";
+            maxnumoflines = 1;
+            datatype = DOUBLE;
+            class = "Weight";
+            cacheable = TRUE;
+            formatzeroasempty = FALSE;
+            justify = RIGHT;
+            visibility = TRUE;
+            angle = 0;
+            length = 8;
+            decimals = 3;
+            sortdirection = DESCENDING;
+            fontname = "Courier New";
+            fontcolor = 153;
+            fonttype = 2;
+            fontsize = 0.8;
+            fontratio = 0.75;
+            fontstyle = 0;
+            fontslant = 0;
+            pen = 0;
+            oncombine = NONE;
+            unit = "kg";
+            aligncontenttotop = FALSE;
+        };
+
+        text _tmp_6
+        {
+            name = ";_11";
+            x1 = 67;
+            y1 = 0;
+            x2 = 67;
+            y2 = 0;
+            string = ";";
+            fontname = "Arial Narrow";
+            fontcolor = 153;
+            fonttype = 2;
+            fontsize = 2.5;
+            fontratio = 1;
+            fontslant = 0;
+            fontstyle = 0;
+            angle = 0;
+            justify = LEFT;
+            pen = -1;
+            isalwaysvisible = TRUE;
+            visibilityrule = "";
+        };
+    };
+};
