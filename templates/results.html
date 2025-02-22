@@ -1,10 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <title>Results</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        table { border-collapse: collapse; margin: 20px 0; }
+        th, td { border: 1px solid black; padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+    </style>
 </head>
 <body>
-$END$
+    <h1>Cutting Stock Results</h1>
+
+    <h2>Final Aggregate Report</h2>
+    <table>
+        <tr>
+            {% for header in final_headers %}
+                <th>{{ header }}</th>
+            {% endfor %}
+        </tr>
+        {% for row in final_data %}
+            <tr>
+                {% for cell in row %}
+                    <td>{{ cell }}</td>
+                {% endfor %}
+            </tr>
+        {% endfor %}
+    </table>
+
+    <h2>Pattern Details</h2>
+    <table>
+        <tr>
+            {% for header in details_headers %}
+                <th>{{ header }}</th>
+            {% endfor %}
+        </tr>
+        {% for row in details_data %}
+            <tr>
+                {% for cell in row %}
+                    <td>{{ cell }}</td>
+                {% endfor %}
+            </tr>
+        {% endfor %}
+    </table>
+
+    <form action="/download_excel" method="get">
+        <input type="hidden" name="excel_data" value="{{ excel_data }}">
+        <input type="submit" value="Download Excel">
+    </form>
+
+    <br>
+    <a href="/">Back to Calculator</a>
 </body>
 </html>

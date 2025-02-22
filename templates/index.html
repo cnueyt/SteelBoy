@@ -1,10 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <title>Cutting Stock Calculator</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .error { color: red; }
+    </style>
 </head>
 <body>
-$END$
+    <h1>Cutting Stock - Best-Fit Algorithm</h1>
+    {% if error %}
+        <p class="error">{{ error }}</p>
+    {% endif %}
+    <form method="post" enctype="multipart/form-data">
+        <div>
+            <label>CSV File:</label><br>
+            <input type="file" name="csv_file" accept=".csv" required>
+        </div>
+        <div>
+            <label>File Encoding:</label><br>
+            <select name="encoding">
+                <option value="utf-8-sig">UTF-8 (with BOM)</option>
+                <option value="latin1">Latin1</option>
+                <option value="windows-1252">Windows-1252</option>
+                <option value="iso-8859-1">ISO-8859-1</option>
+            </select>
+        </div>
+        <div>
+            <label>Stock Length (mm):</label><br>
+            <input type="number" name="stock_length" required min="1">
+        </div>
+        <div>
+            <label>Cut Kerf (mm):</label><br>
+            <input type="number" name="cut_kerf" step="0.1" value="0.0">
+        </div>
+        <br>
+        <input type="submit" value="Calculate">
+    </form>
 </body>
 </html>
