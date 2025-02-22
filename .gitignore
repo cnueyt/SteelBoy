@@ -1,0 +1,21 @@
+ 
+# Python-related
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+.venv/
+
+# IDE-related
+.idea/         # PyCharm
+.vscode/       # VS Code
+
+# Logs and temp files
+*.log
+*.tmp
+
+# System files
+desktop.ini
+Thumbs.db
